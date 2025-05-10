@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Тестовое задание tinymce-template-editor</title>
+        <script src="https://cdn.tiny.cloud/1/3pvjuj21zkb2av2zbmt4amjr6n7a4eybt01hvvl9eht5zqke/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="editor-section">
+<!--                <button id="insert-button">Insert</button>-->
+                <textarea id="editor"></textarea>
+            </div>
+
+            <div class="templates-panel">
+                <h3>Templates</h3>
+                <ul id="template-list">
+                    <li data-template="template 1">template 1</li>
+                    <li data-template="template 2">template 2</li>
+                    <li data-template="template 3">template 3</li>
+                </ul>
+                <button id="add-template">+</button>
+                <button id="remove-template">−</button>
+                <input type="text" id="template-input" placeholder="Edit template" />
+            </div>
+        </div>
+    </body>
+</html>
